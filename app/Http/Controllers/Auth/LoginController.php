@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/profile';
 
     /**
      * Create a new controller instance.
@@ -36,4 +36,11 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
+//    public function authenticate(array $data)
+//    {
+//        if (Auth::attempt(['email' => $data['email'], 'password' => $data['password']])) {
+//            // Аутентификация успешна
+//            return redirect()->intended('dashboard');
+//        }
+//    }
 }

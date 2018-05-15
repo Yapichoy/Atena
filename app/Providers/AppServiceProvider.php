@@ -11,6 +11,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    protected $policies = [
+        'App\Task' => 'App\Policies\TaskPolicy',
+
+        //для версии 5.1
+        //Task::class => TaskPolicy::class,
+    ];
     public function boot()
     {
         //

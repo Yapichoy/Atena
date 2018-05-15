@@ -1,0 +1,48 @@
+.menu+*{padding-top:30px;}
+.menu+.menu_line{padding:80px 0 0 ;}
+.menu{background:transparent; position:relative; left:5%; width:90%; z-index:3;}
+.menu_line .colored{background:#ebf5f7;}
+.menu_line .colored ul li:hover{cursor: pointer;}
+.menu>.container{max-width:100%;}
+	.menu img{margin: 0px 15px 0 0; float:left;}
+	.menu h3{font:500 18px 'Montserrat'; letter-spacing:2px;}
+	.menu h4{font:600 13px 'Open Sans';}
+	.menu h5{font:700 12px 'Oswald'; letter-spacing:4px;}
+	.menu button{border:1px solid #e1e1e1;  padding:0px 15px; min-width:100px; border-radius: 50px; height:40px}
+		.menu button a{font:14px 'Open Sans'; text-decoration:none;}
+	#top input{height:55px; width:100%; border-radius:50px; border:0;padding:0 55px; }
+	#top input+button{position:absolute; top:0; margin:4px 6px; right:0;height: 47px; max-width:40%;}
+		#top button + img{position:absolute; left:20px; top:20px; filter: invert(100%);}
+	.menu .row > div {padding:0;}
+	.menu-logo{padding-top:25px !important;}
+	.menu-rent{padding-top:35px !important;}
+		.menu-rent img{padding: 0 15px;}
+	.menu-buttons{padding-top:20px !important;}
+	.menu-buttons a{display:inline-block; vertical-align: middle;}
+	.menu-buttons a img{padding:0; margin:0 0 0 25px;     border-radius: 50%;}
+
+.menu_line{}
+	.menu_line ul{margin:0 -15px; padding:0;}
+		.menu_line ul li{list-style-type:none; display:inline-block; margin:0 15px; font: 14px/50px 'Open Sans'; border-bottom:2px solid transparent;}
+			.menu_line ul li:hover{border-bottom:2px solid #000;}
+
+
+/*
+ *	Блок конфиденциальности 
+ */
+
+.confidence{
+	margin: 140px 0; color:#000;
+}
+.confidence h1{
+	font: 48px 'Open Sans'; text-align: center;
+	margin-bottom: 71px;
+}
+.confidence p{
+	font: 16px 'Open Sans'; text-align: center;color:#000;line-height: 30px;
+}
+
+
+/*
+ *	End block
+ */
