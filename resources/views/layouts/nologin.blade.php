@@ -13,7 +13,7 @@
     <!-- CSRF Token -->
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title')</title>
     <!-- Styles -->
     <!-- Scripts -->
     <script>
@@ -48,7 +48,7 @@
 </div>
 @else
 <div class="col-md-4 col-md-offset-6 col-sm-6 text-right menu-buttons col-xs-12">
-<button data-route="/Orders/Create" class="blue">Создать заказ</button>
+<a href="{{url('/create')}}" class="blue">Создать заказ</a>
 <a class="notifContainer" href="javascript:bells();">
 <img src="img/hellsbells.png" alt="">
 
@@ -84,7 +84,7 @@
 <div class="row">
 <ul>
 <li class="cssFixes" id="one" data-route="/Orders/MyOrders">
-Мои заказы
+    <a href="{{url('/myorders')}}">Мои заказы</a>
 </li>
 <li class="cssFixes" id="two">
     <a href="{{url('/profile')}}">Мой профиль</a>

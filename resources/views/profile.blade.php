@@ -1,4 +1,5 @@
 @extends('layouts.nologin')
+@section('title', 'Профиль')
 @section('content')
     <section id="client">
         <div id="chooseImgBg" class="bg_img"></div>
